@@ -1,0 +1,32 @@
+{
+    "descriptions": [
+      {
+          "dataType": "func",
+          "modalityLabel": "sbref",
+          "customLabels": "task-localizer",
+          "criteria": {
+              "ProtocolName": "Single_echo_1000ms",
+              "ImageComments": "Single-band_reference",
+              "PhaseEncodingDirection": "j-"
+          }
+      },
+      {
+          "dataType": "func",
+          "modalityLabel": "bold",
+          "customLabels": "task-localizer",
+          "criteria": {
+              "ProtocolName": "Single_echo_1000ms",
+              "ImageComments": "Unaliased_MB4_PE3_LB",
+              "PhaseEncodingDirection": "j-"
+          }
+      },
+      {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "T1w_MPR",
+                "SeriesNumber": "6"
+            }
+        }
+    ]
+}

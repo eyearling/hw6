@@ -1,0 +1,28 @@
+uber_subject.py                                                             \
+    -cvar subj_dir subject_results/group.METEST4/subj.METEST4               \
+    -svar anat /bind/bids/data/sub-METEST4/anat/sub-METEST4_T1w.nii.gz      \
+    -svar blur_size 6                                                       \
+    -svar epi                                                               \
+    /bind/bids/data/sub-METEST4/func/sub-METEST4_task-localizer_bold.nii.gz \
+    -svar gid METEST4                                                       \
+    -svar gltsym 'btn_vis_left -btn_vis_right +click_L -click_R' 'sent_aud  \
+    +sent_vis -calc_aud -calc_vis' 'sent_aud -sent_vis +calc_aud -calc_vis' \
+    'sent_vis +calc_vis -checkerH -checkerV'                                \
+    -svar gltsym_label right-left sent-calc speech-text text-checker        \
+    -svar motion_limit 0.5                                                  \
+    -svar regress_mot_deriv yes                                             \
+    -svar run_clustsim no                                                   \
+    -svar sid METEST4                                                       \
+    -svar stim /bind/data/onsets/btn_vis_left.txt                           \
+    /bind/data/onsets/btn_vis_right.txt /bind/data/onsets/calc_aud.txt      \
+    /bind/data/onsets/calc_vis.txt /bind/data/onsets/checkerH.txt           \
+    /bind/data/onsets/checkerV.txt /bind/data/onsets/click_L.txt            \
+    /bind/data/onsets/click_R.txt /bind/data/onsets/sent_aud.txt            \
+    /bind/data/onsets/sent_vis.txt                                          \
+    -svar stim_basis 'GAM' 'GAM' 'GAM' 'GAM' 'GAM' 'GAM' 'GAM' 'GAM' 'GAM'  \
+    'GAM'                                                                   \
+    -svar stim_label btn_vis_left btn_vis_right calc_aud calc_vis checkerH  \
+    checkerV click_L click_R sent_aud sent_vis                              \
+    -svar stim_type times times times times times times times times times   \
+    times                                                                   \
+    -svar tlrc_base MNI_avg152T1+tlrc

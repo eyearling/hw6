@@ -1,0 +1,47 @@
+
+subject ID                : METEST4
+AFNI version              : AFNI_18.2.19
+AFNI package              : linux_ubuntu_16_64
+TRs removed (per run)     : 0
+num stim classes provided : 10
+final anatomy dset        : anat_final.METEST4+tlrc.HEAD
+final stats dset          : stats.METEST4+tlrc.HEAD
+final voxel resolution    : 2.500000	2.500000	2.500000
+
+motion limit              : 0.5
+num TRs above mot limit   : 0
+average motion (per TR)   : 0.0941131
+average censored motion   : 0.0941131
+max motion displacement   : 0.604604
+max censored displacement : 0.604604
+outlier limit             : 0.1
+average outlier frac (TR) : 0.000664777
+num TRs above out limit   : 0
+
+num runs found            : 1
+num TRs per run           : 314
+num TRs per run (applied) : 314
+num TRs per run (censored): 0
+fraction censored per run : 0
+TRs total (uncensored)    : 314
+TRs total                 : 314
+degrees of freedom used   : 26
+degrees of freedom left   : 288
+
+TRs censored              : 0
+censor fraction           : 0.000000
+num regs of interest      : 10
+num TRs per stim (orig)   : 46 55 88 92 97 95 45 54 90 97
+num TRs censored per stim : 0 0 0 0 0 0 0 0 0 0
+fraction TRs censored     : 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ave mot per sresp (orig)  : 0.082709 0.090623 0.094258 0.099252 0.093760 0.093407 0.087739 0.095021 0.092303 0.093965
+ave mot per sresp (cens)  : 0.082709 0.090623 0.094258 0.099252 0.093760 0.093407 0.087739 0.095021 0.092303 0.093965
+
+TSNR average              : 291.462
+global correlation (GCOR) : 0.232296
+anat/EPI mask Dice coef   : 0.937821
+maximum F-stat (masked)   : 74.191
+blur estimates (ACF)      : 0.79859 4.18682 16.7227
+blur estimates (FWHM)     : 0 0 0
+
+
